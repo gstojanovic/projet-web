@@ -1,0 +1,73 @@
+html
+{
+height : 100%;
+}
+
+body
+{
+min-height: 100%;
+background-image   : url(../img/bvd.png),
+                     url(../img/bvg.png),
+		linear-gradient(to right, rgba(255, 255, 255, 0),  rgba(255, 255, 255, 0));
+  background-repeat  : repeat-y,
+                       repeat-y,
+			repeat-y;
+
+  background-position: right,
+                       left,
+			right;
+				
+}
+
+
+
+
+.titre
+{
+ text-align:center; 
+  font-family: Rockwell Extra Bold,Rockwell Bold,monospace;
+font-size: 500%;
+}
+
+
+
+p.center
+{
+text-align:center;
+}
+
+h2
+{
+
+text-align:center;
+}
+
+.bossderegle
+{
+left:20%;
+position: absolute;
+width:60%;
+}
+
+.regle
+{
+background-color:white;
+padding:5pt;
+border-radius: 10px;
+border-color: black;
+color:black;
+border-style: double;
+}
+
+.tabled
+{
+left:25%;
+position: absolute;
+width:60%;
+top:70%;
+}
+
+td:active
+{
+background-color:red;
+}

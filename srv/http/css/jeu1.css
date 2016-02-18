@@ -1,0 +1,32 @@
+html{
+height : 100%;
+}
+
+body{
+min-height: 100%;
+background-image   : url(../img/bvd.png),
+                       url(../img/bvg.png),
+                         linear-gradient(to right, rgba(255, 255, 255, 0),  rgba(255, 255, 255, 0));
+  background-repeat  : repeat-y,
+                       repeat-y,
+                        repeat-y;
+
+  background-position: right,
+                       left,
+                right;
+
+}
+
+div{
+text-align:center;
+}
+
+
+.tabled
+{
+left:28.5%;
+position: absolute;
+width:60%;
+top:70%;
+}
+

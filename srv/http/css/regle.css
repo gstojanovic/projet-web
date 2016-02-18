@@ -1,0 +1,51 @@
+html{
+height : 100%;
+}
+
+body{
+min-height: 100%;
+background-image   : url(../img/bvd.png),
+                       url(../img/bvg.png),
+                         linear-gradient(to right, rgba(255, 255, 255, 0),  rgba(255, 255, 255, 0));
+  background-repeat  : repeat-y,
+                       repeat-y,
+                        repeat-y;
+
+  background-position: right,
+                       left,
+                right;
+
+}
+
+p.center
+{
+text-align:center;
+}
+h1{
+color:red;
+text-align:center;
+}
+
+h2{
+
+text-align:center;
+}
+h3{
+
+text-align:center;
+}
+
+
+.bossderegle{
+left:20%;
+position: absolute;
+width:60%;
+}
+
+.regle
+{
+color:black;
+padding:5pt;
+border-style: double;
+}
+
